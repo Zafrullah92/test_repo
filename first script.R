@@ -10,3 +10,5 @@ require(MVN)
 mvn(formulation)
 
 mvn(data = formulation, mvnTest = 'royston', univariateTest = 'SW', desc = TRUE)
+
+view(formulation)
